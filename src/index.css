@@ -1,0 +1,104 @@
+body {
+  background: #fffef0;
+}
+
+.custom-font {
+  font-family: "Oooh Baby", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.background {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* fade animation */
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+h1 {
+  display: block;
+  font-size: 3em;
+}
+
+h1.answer {
+  margin-top: -10vh;
+  font-size: 5em;
+  font-weight: 600;
+  color: #f688a5;
+  margin-bottom: 0;
+}
+
+p.message { 
+  margin-top: 0;
+  font-size: 3em;
+}
+
+img.icon-answer {
+  margin-top: -20vh;
+  width: 80vw;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  max-height: 80vh;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}
+
+button.whatsapp {
+  background-color: #25d366;
+  padding: 1.5em 4em;
+  border: none;
+  border-radius: 3em;
+  font-size: 1em;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+
+}
+
+.buttons button {
+  padding: 1.5em 4em;
+  border: none;
+  border-radius: 3em;
+  font-size: 1em;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+
+.its-a-boy {
+  background-color: #77dfed;
+  margin-right: 0.5em;
+}
+
+.its-a-boy:hover {
+  background-color: #286bb8;
+}
+
+.its-a-girl {
+  margin-left: 0.5em;
+  background-color: #f688a5;
+}
+
+.its-a-girl:hover {
+  background-color: #d94d8f;
+}
