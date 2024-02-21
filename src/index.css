@@ -83,6 +83,7 @@ button.whatsapp {
   font-weight: 600;
   color: white;
   cursor: pointer;
+  width: 250px;
 }
 
 .its-a-boy {
@@ -101,4 +102,37 @@ button.whatsapp {
 
 .its-a-girl:hover {
   background-color: #d94d8f;
+}
+
+/* if mobile  */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h1.answer {
+    font-size: 3em;
+  }
+
+  p.message {
+    font-size: 2em;
+  }
+
+  img.icon-answer {
+    margin-top: -10vh;
+    width: 80vw;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    max-height: 80vh;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .buttons button {
+    margin-top: 1em;
+    width: 80vw;
+  }
 }
