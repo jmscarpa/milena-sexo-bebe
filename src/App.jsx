@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 import icon from './assets/icon.png'
-import girl from './assets/girl.png'
+import boy from './assets/boy.png'
 
 function App() {
 
@@ -11,8 +11,8 @@ function App() {
   if (showAnswer) {
     return (
       <div className="background fade-in">
-        <img src={girl} alt="Ícone de um bebê" className="icon-answer" />
-        <h1 className="answer custom-font">É uma menina!</h1>
+        <img src={boy} alt="Ícone de um bebê" className="icon-answer" />
+        <h1 className="answer custom-font">É um Menino!</h1>
         <p className="message custom-font">Mamãe, papai e meus irmãos estão muito felizes com a minha chegada!</p>
         <a href="https://wa.me/5512996517183" target="_blank" rel="noreferrer">
           <button className="whatsapp">Mande uma mensagem para mim</button>
